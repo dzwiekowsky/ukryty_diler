@@ -1,0 +1,33 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+#map {
+  height: 90vh;
+  width: 100%;
+  margin: auto;
+}
+.leaflet-popup-content-wrapper {
+  width: 300px !important;   /* stała szerokość */
+  height: 200px !important;  /* stała wysokość */
+  overflow: hidden;
+}
+
+.leaflet-popup-content {
+  width: 280px;   /* trochę mniejsze niż wrapper, aby była przestrzeń na padding */
+  height: 160px;  /* mniejsze niż wrapper, żeby dać miejsce na marginesy */
+  overflow-y: auto; /* pionowy scroll, jeśli treść się nie mieści */
+}
+
+.leaflet-popup-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-top: 5px;
+}
