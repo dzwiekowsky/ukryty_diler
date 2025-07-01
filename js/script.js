@@ -81,7 +81,7 @@ function startLoopingTimer(startHourUTCplus1, startMinuteUTCplus1, cycleMinutes)
     const minutes = Math.floor(remaining / 60).toString().padStart(2, '0');
     const seconds = Math.floor(remaining % 60).toString().padStart(2, '0');
 
-    timerElement.textContent = `Ukryty diler by dzwq — Reset za:${minutes}:${seconds}`;
+    timerElement.textContent = `Ukryty diler by dzwq — Reset dilera powinien być za: ${minutes}:${seconds}`;
   }
 
   update();
@@ -90,3 +90,16 @@ function startLoopingTimer(startHourUTCplus1, startMinuteUTCplus1, cycleMinutes)
 
 // 🔁 Timer odlicza cyklicznie co 60 minut, od 15:25 UTC+1
 startLoopingTimer(15, 25, 60);
+
+// Dodanie obsługi zamykania modala po załadowaniu DOM
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('closeModal').addEventListener('click', () => {
+    document.getElementById('imgModal').style.display = 'none';
+  });
+
+  document.getElementById('imgModal').addEventListener('click', (e) => {
+    if (e.target.id === 'imgModal') {
+      e.target.style.display = 'none';
+    }
+  });
+});
