@@ -47,5 +47,12 @@ const markers = [
     lng: 416.12500,
     category: "znajdzka",
     img: "img/tunel_paleto.png"
+  },
+    {
+    name: "tramwaje",
+    lat: 696.68155,
+    lng: 694.43750,
+    category: "znajdzka",
+    img: "img/tramwaje.png"
   }
 ];
