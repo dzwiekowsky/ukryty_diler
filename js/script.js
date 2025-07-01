@@ -89,7 +89,7 @@ function startLoopingTimer(startHourUTCplus1, startMinuteUTCplus1, cycleMinutes)
 }
 
 // 🔁 Timer odlicza cyklicznie co 60 minut, od 15:25 UTC+1
-startLoopingTimer(15, 25, 60);
+startLoopingTimer(15, 27, 60);
 
 // Dodanie obsługi zamykania modala po załadowaniu DOM
 document.addEventListener('DOMContentLoaded', () => {
