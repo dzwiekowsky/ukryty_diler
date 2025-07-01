@@ -60,6 +60,6 @@ const markers = [
     lat: 226.28669,
     lng: 514.50000,
     category: "skrot",
-    img: "img/tramwaje.png"
+    img: ""
   },
 ];
