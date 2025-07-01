@@ -54,5 +54,12 @@ const markers = [
     lng: 694.43750,
     category: "znajdzka",
     img: "img/tramwaje.png"
-  }
+  },
+    {
+    name: "Tania lakiernia - niepotwierdzony",
+    lat: 226.28669,
+    lng: 514.50000,
+    category: "skrot",
+    img: "img/tramwaje.png"
+  },
 ];
