@@ -4,14 +4,12 @@ const map = L.map('map', {
   maxZoom: 4
 });
 
-// Załaduj obraz jako tło mapy
-const imageUrl = 'img/mapa.jpg'; // zmień ścieżkę jeśli trzeba
-const imageBounds = [[0,0], [1000,1000]]; // dostosuj do rozmiaru obrazu
+const imageUrl = 'img/mapa.jpg'; 
+const imageBounds = [[0,0], [1000,1000]]; 
 L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
 map.fitBounds(imageBounds);
 
-// Dodawanie markerów
 markers.forEach(m => {
   const color = m.category === "znajdzka" ? "red" :
                 m.category === "skrot" ? "green" :
@@ -31,15 +29,14 @@ markers.forEach(m => {
   marker.bindPopup(popupHtml);
 });
 
-// Funkcja pokazująca modal z powiększonym obrazem
-function showImageModal(src) {
+
   const modal = document.getElementById('imgModal');
   const modalImg = document.getElementById('modalImg');
   modal.style.display = 'flex';
   modalImg.src = src;
 }
 
-// Obsługa kliknięcia w zdjęcie w popupie
+
 map.on('popupopen', function(e) {
   const popupNode = e.popup.getElement();
   const img = popupNode.querySelector('img');
@@ -49,7 +46,7 @@ map.on('popupopen', function(e) {
   }
 });
 
-// Zamknięcie modala po kliknięciu w X lub tło
+
 document.getElementById('closeModal').onclick = function() {
   document.getElementById('imgModal').style.display = 'none';
 };
@@ -59,7 +56,7 @@ document.getElementById('imgModal').onclick = function(e) {
   }
 };
 
-// Wypisywanie koordynat kliknięcia na mapie
+
 map.on('click', function(e) {
   const lat = e.latlng.lat.toFixed(5);
   const lng = e.latlng.lng.toFixed(5);
