@@ -62,7 +62,7 @@ const markers = [
     category: "znajdzka",
     img: "img/tania_lakiernia.png"
   },
-      {
+    {
     name: "Szopa autostrada",
     lat: 462.97140,
     lng: 581.06250,
@@ -75,5 +75,47 @@ const markers = [
     lng: 647.31250,
     category: "znajdzka",
     img: "img/zlomowisko_samoplotow.png"
+  },
+    {
+    name: "dobre miejsce na dila",
+    lat: 577.10779,
+    lng: 455.62500,
+    category: "npc",
+    img: ""
+  },
+    {
+    name: "dobre miejsce na dila",
+    lat: 482.34809,
+    lng: 454.56250,
+    category: "npc",
+    img: ""
+  },
+    {
+    name: "dobre miejsce na dila",
+    lat: 502.35501,
+    lng: 436.37500,
+    category: "npc",
+    img: ""
+  },
+    {
+    name: "dobre miejsce na dila",
+    lat: 240.98135,
+    lng: 529.37500,
+    category: "npc",
+    img: ""
+  },
+    {
+    name: "dobre miejsce na dila",
+    lat: ,
+    lng: ,
+    category: "npc",
+    img: ""
+  },
+    {
+    name: "dobre miejsce na dila",
+    lat: 850.41360,
+    lng: 563.18750,
+    category: "npc",
+    img: "img/rura.png"
   }
 ];
