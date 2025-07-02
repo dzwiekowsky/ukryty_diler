@@ -68,5 +68,12 @@ const markers = [
     lng: 581.06250,
     category: "znajdzka",
     img: "img/szopa_autostrada.png"
+  },
+    {
+    name: "Tania lakiernia",
+    lat: 577.10779,
+    lng: 647.31250,
+    category: "znajdzka",
+    img: "img/zlomowisko_samolotow.png"
   }
 ];
