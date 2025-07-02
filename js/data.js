@@ -70,10 +70,10 @@ const markers = [
     img: "img/szopa_autostrada.png"
   },
     {
-    name: "Tania lakiernia",
+    name: "zlomowisko_samolotow",
     lat: 577.10779,
     lng: 647.31250,
     category: "znajdzka",
-    img: "img/zlomowisko_samolotow.png"
+    img: "img/zlomowisko_samoplotow.png"
   }
 ];
