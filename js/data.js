@@ -56,10 +56,17 @@ const markers = [
     img: "img/tramwaje.png"
   },
     {
-    name: "Tania lakiernia - niepotwierdzony",
+    name: "Tania lakiernia",
     lat: 226.28669,
     lng: 514.50000,
-    category: "skrot",
-    img: ""
+    category: "znajdzka",
+    img: "img/tania_lakiernia.png"
   },
+      {
+    name: "Szopa autostrada",
+    lat: 462.97140,
+    lng: 581.06250,
+    category: "znajdzka",
+    img: "img/szopa_autostrada.png"
+  }
 ];
