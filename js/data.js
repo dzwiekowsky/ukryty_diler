@@ -78,8 +78,8 @@ const markers = [
   },
     {
     name: "dobre miejsce na dila 1",
-    lat: 577.10779,
-    lng: 455.62500,
+    lat: 577.16314,
+    lng: 471.31250,
     category: "npc",
     img: ""
   },
