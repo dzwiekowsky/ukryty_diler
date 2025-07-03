@@ -63,7 +63,7 @@ const markers = [
     img: "img/tania_lakiernia.png"
   },
     {
-    name: "Szopa autostrada",
+    name: "Szopa machcina",
     lat: 462.97140,
     lng: 581.06250,
     category: "znajdzka",
