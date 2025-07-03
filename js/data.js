@@ -105,13 +105,6 @@ const markers = [
     img: ""
   },
     {
-    name: "dobre miejsce na dila 5",
-    lat: ,
-    lng: ,
-    category: "npc",
-    img: ""
-  },
-    {
     name: "dobre miejsce na dila 6",
     lat: 850.41360,
     lng: 563.18750,
