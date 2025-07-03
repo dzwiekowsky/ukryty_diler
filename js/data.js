@@ -77,42 +77,42 @@ const markers = [
     img: "img/zlomowisko_samoplotow.png"
   },
     {
-    name: "dobre miejsce na dila",
+    name: "dobre miejsce na dila 1",
     lat: 577.10779,
     lng: 455.62500,
     category: "npc",
     img: ""
   },
     {
-    name: "dobre miejsce na dila",
+    name: "dobre miejsce na dila 2",
     lat: 482.34809,
     lng: 454.56250,
     category: "npc",
     img: ""
   },
     {
-    name: "dobre miejsce na dila",
+    name: "dobre miejsce na dila 3",
     lat: 502.35501,
     lng: 436.37500,
     category: "npc",
     img: ""
   },
     {
-    name: "dobre miejsce na dila",
+    name: "dobre miejsce na dila 4",
     lat: 240.98135,
     lng: 529.37500,
     category: "npc",
     img: ""
   },
     {
-    name: "dobre miejsce na dila",
+    name: "dobre miejsce na dila 5",
     lat: ,
     lng: ,
     category: "npc",
     img: ""
   },
     {
-    name: "dobre miejsce na dila",
+    name: "dobre miejsce na dila 6",
     lat: 850.41360,
     lng: 563.18750,
     category: "npc",
