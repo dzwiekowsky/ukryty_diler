@@ -84,6 +84,27 @@ const markers = [
     img: ""
   },
     {
+    name: "elburno",
+    lat: 185.78449,
+    lng: 587.18750,
+    category: "znajdzka",
+    img: "img/elburno.png"
+  },
+    {
+    name: "rafineria",
+    lat: 447.58861,
+    lng: 680.19276,
+    category: "znajdzka",
+    img: "img/rafineria.png"
+  },
+    {
+    name: "u machcina",
+    lat: 356.04165,
+    lng: 453.56250,
+    category: "znajdzka",
+    img: "img/u_machcina.png"
+  },
+    {
     name: "dobre miejsce na dila 1",
     lat: 577.16314,
     lng: 471.31250,
