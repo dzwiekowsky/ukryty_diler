@@ -98,7 +98,7 @@ const markers = [
     img: "img/rafineria.png"
   },
     {
-    name: "u machcina",
+    name: "dom machcina",
     lat: 356.04165,
     lng: 453.56250,
     category: "znajdzka",
