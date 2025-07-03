@@ -77,6 +77,13 @@ const markers = [
     img: "img/zlomowisko_samoplotow.png"
   },
     {
+    name: "Statek",
+    lat: 83.53353,
+    lng: 558.68750,
+    category: "znajdzka",
+    img: ""
+  },
+    {
     name: "dobre miejsce na dila 1",
     lat: 577.16314,
     lng: 471.31250,
