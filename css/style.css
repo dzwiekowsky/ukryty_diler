@@ -15,7 +15,7 @@ html, body {
   z-index: 1;
 }
 
-/* Nagłówek aplikacji */
+
 #header {
   position: absolute;
   top: 10px;
@@ -29,7 +29,7 @@ html, body {
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
-/* Licznik znajdziek */
+
 #znajdzki-counter {
   position: absolute;
   top: 10px;
@@ -44,7 +44,7 @@ html, body {
   margin: 0;
 }
 
-/* Poprawki popupów Leaflet */
+
 .leaflet-popup-content-wrapper {
   width: 300px !important;
   height: 200px !important;
@@ -67,13 +67,13 @@ html, body {
   margin-top: 5px;
 }
 
-/* Tło mapy */
+
 .leaflet-container {
   background: #143d6b !important;
   outline-offset: 1px;
 }
 
-/* Legenda */
+
 #legenda-box {
   position: absolute;
   top: 10px;
@@ -82,13 +82,13 @@ html, body {
   margin: 0;
 }
 
-/* Przycisk legendy */
+
 #toggleLegenda {
   display: block;
   background-color: rgba(255, 255, 255, 0.9);
   color: black;
   border: none;
-  padding: 8px 12px; /* pełny padding (przycisk ma rozmiar) */
+  padding: 8px 12px; 
   border-radius: 8px;
   font-weight: bold;
   font-size: 16px;
@@ -97,10 +97,10 @@ html, body {
   margin: 0;
 }
 
-/* Lista legendy */
+
 #legenda-list {
   position: absolute;
-  top: 42px; /* minimalna odległość pod przyciskiem */
+  top: 42px; 
   right: 0;
   background-color: rgba(255, 255, 255, 0.95);
   padding: 6px 10px;
@@ -129,7 +129,7 @@ html, body {
 #search-box {
   position: absolute;
   top: 10px;
-  right: 260px;    /* tutaj ustawiasz odległość od prawej */
+  right: 260px;    
   z-index: 1001;
   width: 250px;
 }
@@ -161,7 +161,7 @@ html, body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   display: none;
   position: absolute;
-  top: 36px; /* odległość od inputa */
+  top: 36px; 
   width: 100%;
   z-index: 1001;
 }
@@ -195,7 +195,7 @@ html, body {
   max-width: 90%;
   text-align: center;
   user-select: none;
-  width: 400px; /* lub dowolna wartość */
+  width: 400px; 
 }
 
 .banner-prefix {
