@@ -9,14 +9,14 @@ const imageBounds = [[0,0], [1000,1000]];
 L.imageOverlay(imageUrl, imageBounds).addTo(map);
 map.fitBounds(imageBounds);
 
-// Liczenie znajdziek
+
 const znajdzkiCount = markers.filter(m => m.category === "znajdzka").length;
 document.getElementById("znajdzki-counter").innerText = `Znajdźki: ${znajdzkiCount}`;
 
-// Rejestr markerów dla Legendy
+
 const markerMap = {};
 
-// Dodawanie markerów
+
 markers.forEach(m => {
   const color = m.category === "znajdzka" ? "red" :
                 m.category === "skrot" ? "green" :
@@ -34,10 +34,10 @@ markers.forEach(m => {
   }
 
   marker.bindPopup(popupHtml);
-  markerMap[m.name] = marker; // Dodajemy do legendy
+  markerMap[m.name] = marker; 
 });
 
-// Obsługa powiększania zdjęć
+
 function showImageModal(src) {
   const modal = document.getElementById('imgModal');
   const modalImg = document.getElementById('modalImg');
@@ -45,7 +45,7 @@ function showImageModal(src) {
   modalImg.src = src;
 }
 
-// Obsługa klików w popupie
+
 map.on('popupopen', function(e) {
   const popupNode = e.popup.getElement();
   const img = popupNode.querySelector('img');
@@ -55,7 +55,7 @@ map.on('popupopen', function(e) {
   }
 });
 
-// Obsługa zamykania modala
+
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('closeModal').addEventListener('click', () => {
     document.getElementById('imgModal').style.display = 'none';
@@ -68,20 +68,18 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// Debug: klik na mapę
+
 map.on('click', function(e) {
   const lat = e.latlng.lat.toFixed(5);
   const lng = e.latlng.lng.toFixed(5);
   console.log(`lat: ${lat}, lng: ${lng}`);
 });
 
-// Obsługa LEGENDY
 document.getElementById("toggleLegenda").addEventListener("click", () => {
   const list = document.getElementById("legenda-list");
   list.style.display = list.style.display === "none" ? "block" : "none";
 });
 
-// Tworzenie listy legendy
 const legendaList = document.getElementById("legenda-list");
 markers.forEach(m => {
   const li = document.createElement("li");
@@ -133,10 +131,10 @@ searchInput.addEventListener("input", () => {
   autocompleteList.style.display = "block";
 });
 
-// Obsługa zatwierdzenia pierwszej podpowiedzi klawiszami Enter i Tab
+
 searchInput.addEventListener("keydown", (e) => {
   if ((e.key === "Enter" || e.key === "Tab") && autocompleteList.style.display !== "none") {
-    e.preventDefault(); // zapobiegamy domyślnej akcji (zwłaszcza Tab)
+    e.preventDefault(); 
     const firstItem = autocompleteList.querySelector("li");
     if (firstItem) {
       firstItem.click();
@@ -144,7 +142,7 @@ searchInput.addEventListener("keydown", (e) => {
   }
 });
 
-// Ukryj listę, gdy klikniemy poza
+
 document.addEventListener("click", (e) => {
   if (!document.getElementById("search-box").contains(e.target)) {
     autocompleteList.style.display = "none";
