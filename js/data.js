@@ -14,63 +14,63 @@ const markers = [
     img: "img/hamownia.png"
   },
   {
-    name: "magazyn_paleto",
+    name: "Magazyn paleto",
     lat: 832.16018,
     lng: 463.43750,
     category: "znajdzka",
     img: "img/magazyn_paleto.png"
   },
   {
-    name: "most",
+    name: "Most",
     lat: 184.97586,
     lng: 408.50000,
     category: "znajdzka",
     img: "img/most.png"
   },
   {
-    name: "sad",
+    name: "Sad",
     lat: 208.40769,
     lng: 366.43750,
     category: "znajdzka",
     img: "img/sad.png"
   },
   {
-    name: "silosy_stab",
+    name: "Silosy Stab",
     lat: 619.59861,
     lng: 439.25000,
     category: "znajdzka",
     img: "img/silosy_stab.png"
   },
   {
-    name: "tunel_paleto",
+    name: "Tunel Paleto",
     lat: 723.31979,
     lng: 416.12500,
     category: "znajdzka",
     img: "img/tunel_paleto.png"
   },
     {
-    name: "tramwaje",
+    name: "Tramwaje",
     lat: 696.68155,
     lng: 694.43750,
     category: "znajdzka",
     img: "img/tramwaje.png"
   },
     {
-    name: "Tania lakiernia",
+    name: "Tania Lakiernia",
     lat: 226.28669,
     lng: 514.50000,
     category: "znajdzka",
     img: "img/tania_lakiernia.png"
   },
     {
-    name: "Szopa machcina",
+    name: "Szopa Machcina",
     lat: 462.97140,
     lng: 581.06250,
     category: "znajdzka",
     img: "img/szopa_autostrada.png"
   },
     {
-    name: "zlomowisko_samolotow",
+    name: "Zlomowisko Samolotow",
     lat: 577.10779,
     lng: 647.31250,
     category: "znajdzka",
@@ -84,21 +84,21 @@ const markers = [
     img: "img/statek.png"
   },
     {
-    name: "elburno",
+    name: "El Burrno",
     lat: 185.78449,
     lng: 587.18750,
     category: "znajdzka",
     img: "img/elburno.png"
   },
     {
-    name: "rafineria",
+    name: "Elektrownia",
     lat: 447.58861,
     lng: 680.19276,
     category: "znajdzka",
     img: "img/rafineria.png"
   },
     {
-    name: "dom machcina",
+    name: "Dom Machcina",
     lat: 356.04165,
     lng: 453.56250,
     category: "znajdzka",
