@@ -33,13 +33,23 @@
   </style>
 </head>
 <body>
-  <h2 id="timer">Ukryty diler by dzwq</h2>
+  <div id="ad-banner"></div>
+  <div id="search-box">
+    <input type="text" id="searchInput" placeholder="Szukaj miejsca...">
+    <ul id="autocomplete-list"></ul>
+  </div>
+  <div id="znajdzki-counter">Znajdźki: 0</div>
+  <div id="legenda-box">
+  <button id="toggleLegenda">Legenda</button>
+  <ul id="legenda-list" style="display: none;"></ul>
+</div>
   <div id="map"></div>
 
   <div id="imgModal">
     <span id="closeModal">&times;</span>
     <img id="modalImg" src="" alt="Powiększone zdjęcie" />
   </div>
+
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="js/data.js"></script>
