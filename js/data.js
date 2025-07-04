@@ -63,7 +63,7 @@ const markers = [
     img: "img/tania_lakiernia.png"
   },
     {
-    name: "Szopa Machcina",
+    name: "Skatepark",
     lat: 462.97140,
     lng: 581.06250,
     category: "znajdzka",
@@ -84,7 +84,7 @@ const markers = [
     img: "img/statek.png"
   },
     {
-    name: "El Burrno",
+    name: "El Burro",
     lat: 185.78449,
     lng: 587.18750,
     category: "znajdzka",
@@ -122,13 +122,6 @@ const markers = [
     name: "dobre miejsce na dila 3",
     lat: 502.35501,
     lng: 436.37500,
-    category: "npc",
-    img: ""
-  },
-    {
-    name: "dobre miejsce na dila 4",
-    lat: 240.98135,
-    lng: 529.37500,
     category: "npc",
     img: ""
   },
