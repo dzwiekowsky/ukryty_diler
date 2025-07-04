@@ -11,7 +11,7 @@ map.fitBounds(imageBounds);
 
 
 const znajdzkiCount = markers.filter(m => m.category === "znajdzka").length;
-document.getElementById("znajdzki-counter").innerText = `Znajdźki: ${znajdzkiCount}`;
+document.getElementById("znajdzki-counter").innerText = `Dilerów: ${znajdzkiCount}`;
 
 
 const markerMap = {};
