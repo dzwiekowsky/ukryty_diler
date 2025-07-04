@@ -81,7 +81,7 @@ const markers = [
     lat: 83.53353,
     lng: 558.68750,
     category: "znajdzka",
-    img: ""
+    img: "img/statek.png"
   },
     {
     name: "elburno",
