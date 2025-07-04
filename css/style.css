@@ -1,25 +1,61 @@
-body {
+html, body {
   margin: 0;
-  font-family: sans-serif;
-  background: #111;
-  color: #fff;
-  text-align: center;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
 }
+
 #map {
-  height: 90vh;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  margin: auto;
+  height: 100%;
+  z-index: 1;
 }
+
+/* Nagłówek aplikacji */
+#header {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 1001;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Licznik znajdziek */
+#znajdzki-counter {
+  position: absolute;
+  top: 10px;
+  right: 110px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  z-index: 1001;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  margin: 0;
+}
+
+/* Poprawki popupów Leaflet */
 .leaflet-popup-content-wrapper {
-  width: 300px !important;   /* stała szerokość */
-  height: 200px !important;  /* stała wysokość */
+  width: 300px !important;
+  height: 200px !important;
   overflow: hidden;
 }
 
 .leaflet-popup-content {
-  width: 280px;   /* trochę mniejsze niż wrapper, aby była przestrzeń na padding */
-  height: 160px;  /* mniejsze niż wrapper, żeby dać miejsce na marginesy */
-  overflow-y: auto; /* pionowy scroll, jeśli treść się nie mieści */
+  width: 280px;
+  height: 160px;
+  overflow-y: auto;
+  padding-right: 5px;
 }
 
 .leaflet-popup-content img {
@@ -31,17 +67,154 @@ body {
   margin-top: 5px;
 }
 
-.leaflet-popup-content img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
-  cursor: pointer;
-  display: block;
-  margin-top: 5px;
-}
-
-/* === Nowe tło mapy === */
+/* Tło mapy */
 .leaflet-container {
   background: #143d6b !important;
   outline-offset: 1px;
+}
+
+/* Legenda */
+#legenda-box {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1001;
+  margin: 0;
+}
+
+/* Przycisk legendy */
+#toggleLegenda {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  border: none;
+  padding: 8px 12px; /* pełny padding (przycisk ma rozmiar) */
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  margin: 0;
+}
+
+/* Lista legendy */
+#legenda-list {
+  position: absolute;
+  top: 42px; /* minimalna odległość pod przyciskiem */
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  max-height: 300px;
+  overflow-y: auto;
+  list-style: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  display: none;
+  margin: 0;
+}
+
+#legenda-list li {
+  margin-bottom: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#legenda-list li:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  padding-left: 4px;
+}
+#search-box {
+  position: absolute;
+  top: 10px;
+  right: 260px;    /* tutaj ustawiasz odległość od prawej */
+  z-index: 1001;
+  width: 250px;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 8px 12px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  outline: none;
+}
+
+
+#autocomplete-list {
+  margin: 0;
+  padding: 6px 8px;
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  max-height: 250px;
+  overflow-y: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: none;
+  position: absolute;
+  top: 36px; /* odległość od inputa */
+  width: 100%;
+  z-index: 1001;
+}
+
+#autocomplete-list li {
+  padding: 6px 4px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#autocomplete-list li:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-left: 6px;
+}
+
+#ad-banner {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  padding: 14px 20px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  z-index: 1002;
+  max-width: 90%;
+  text-align: center;
+  user-select: none;
+  width: 400px; /* lub dowolna wartość */
+}
+
+.banner-prefix {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.banner-content {
+  font-size: 16px;
+}
+.banner-line {
+  padding: 2px 0;
+}
+
+.banner-separator {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 4px 0;
 }
