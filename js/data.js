@@ -105,6 +105,13 @@ const markers = [
     img: "img/u_machcina.png"
   },
     {
+    name: "Dinuś",
+    lat: 537.06250,
+    lng: 661.87500,
+    category: "znajdzka",
+    img: "img/dinus.png"
+  },
+    {
     name: "dobre miejsce na dila 1",
     lat: 577.16314,
     lng: 471.31250,
