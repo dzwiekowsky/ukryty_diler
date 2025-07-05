@@ -56,14 +56,14 @@ const markers = [
     img: "img/tramwaje.png"
   },
     {
-    name: "Tania Lakiernia",
+    name: "Skatepark",
     lat: 226.28669,
     lng: 514.50000,
     category: "znajdzka",
     img: "img/tania_lakiernia.png"
   },
     {
-    name: "Skatepark",
+    name: "Szopa Machcina",
     lat: 462.97140,
     lng: 581.06250,
     category: "znajdzka",
