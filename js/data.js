@@ -123,6 +123,6 @@ const markers = [
     lat: 245.37500,
     lng: 276.50000,
     category: "znajdzka",
-    img: "img/.png"
+    img: ""
   }  
 ];
