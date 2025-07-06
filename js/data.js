@@ -111,32 +111,18 @@ const markers = [
     category: "znajdzka",
     img: "img/dinus.png"
   },
-    {
-    name: "dobre miejsce na dila 1",
-    lat: 577.16314,
-    lng: 471.31250,
-    category: "npc",
-    img: ""
+      {
+    name: "Szkieletor",
+    lat: 249.43750,
+    lng: 422.93750,
+    category: "znajdzka",
+    img: "img/szkieletor.png"
   },
-    {
-    name: "dobre miejsce na dila 2",
-    lat: 482.34809,
-    lng: 454.56250,
-    category: "npc",
-    img: ""
-  },
-    {
-    name: "dobre miejsce na dila 3",
-    lat: 502.35501,
-    lng: 436.37500,
-    category: "npc",
-    img: ""
-  },
-    {
-    name: "dobre miejsce na dila 6",
-    lat: 850.41360,
-    lng: 563.18750,
-    category: "npc",
-    img: "img/rura.png"
-  }
+      {
+    name: "Maszynownia [na koncu maszynowni stoi pan]",
+    lat: 245.37500,
+    lng: 276.50000,
+    category: "znajdzka",
+    img: "img/.png"
+  }  
 ];
