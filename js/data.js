@@ -119,10 +119,10 @@ const markers = [
     img: "img/szkieletor.png"
   },
       {
-    name: "Maszynownia [na koncu maszynowni stoi pan]",
+    name: "Maszynownia",
     lat: 245.37500,
     lng: 276.50000,
     category: "znajdzka",
-    img: ""
+    img: "img/jacht.png"
   }  
 ];
