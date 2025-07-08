@@ -118,6 +118,13 @@ const markers = [
     category: "znajdzka",
     img: "img/szkieletor.png"
   },
+        {
+    name: "Kurier",
+    lat: 831.87500,
+    lng: 435.31250,
+    category: "znajdzka",
+    img: "img/paleto_kurier.png"
+  },
       {
     name: "Maszynownia",
     lat: 245.37500,
