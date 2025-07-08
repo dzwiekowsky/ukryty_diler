@@ -123,7 +123,7 @@ const markers = [
     lat: 831.87500,
     lng: 435.31250,
     category: "znajdzka",
-    img: "img/paleto_kurier.png"
+    img: "img/paleto_kurier.jpg"
   },
       {
     name: "Maszynownia",
