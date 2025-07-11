@@ -131,5 +131,12 @@ const markers = [
     lng: 276.50000,
     category: "znajdzka",
     img: "img/jacht.png"
-  }  
+  },
+      {
+    name: "Piwnica",
+    lat: 724.25000,
+    lng: 653.56250,
+    category: "znajdzka",
+    img: "img/piwnica.png"
+  },
 ];
