@@ -1,5 +1,3 @@
-[blue]Tu jest miejsce na Twoją reklamę![/blue]
-[red]dzwq:[/red] [K] Moonbeama/y
-[red]dzwq:[/red] [S] Shaman dostępne:[b]100[/b] szt. 899$
-[red]dzwq:[/red] [S] Kush dostępne:[b]100[/b] szt. 899$
-
+[blue]Tu jest miejsce na Twoją reklamę![/blue] [green]Tylko 500$ dzień![/green]
+[red]dzwq:[/red] [S] Shaman dostępne:[b]~100[/b] szt. 899$
+[red]dzwq:[/red] [S] Kush dostępne:[b]~200[/b] szt. 899$
