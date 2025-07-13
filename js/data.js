@@ -139,4 +139,18 @@ const markers = [
     category: "znajdzka",
     img: "img/piwnica.png"
   },
+      {
+    name: "Motel",
+    lat: 614.18750, 
+    lng: 582.37500,
+    category: "znajdzka",
+    img: "img/motel.png"
+  },
+      {
+    name: "Przyczepa",
+    lat: 874.37500, 
+    lng: 476.98901,
+    category: "znajdzka",
+    img: "img/piwnica.png"
+  }
 ];
