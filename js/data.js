@@ -144,13 +144,13 @@ const markers = [
     lat: 614.18750, 
     lng: 582.37500,
     category: "znajdzka",
-    img: "img/Motel.png"
+    img: "img/Motel.PNG"
   },
       {
     name: "Przyczepa",
     lat: 874.37500, 
     lng: 476.98901,
     category: "znajdzka",
-    img: "img/Przyczepa.png"
+    img: "img/Przyczepa.PNG"
   }
 ];
